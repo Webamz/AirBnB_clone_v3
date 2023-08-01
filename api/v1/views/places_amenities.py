@@ -8,7 +8,6 @@ from os import environ
 from flask import abort, jsonify, make_response
 
 
-
 @app_views.route('places/<place_id>/amenities', methods=['GET'],
                  strict_slashes=False)
 def get_place_amenities(place_id):
